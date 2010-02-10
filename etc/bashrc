@@ -221,3 +221,4 @@ fi
   #echo 'interactive shell'
   ### interactive shells (only)
 #fi
+eval `dircolors $HOME/.dir_colors`
