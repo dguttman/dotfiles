@@ -33,10 +33,10 @@ rm ~/.irbrc
 ln -s ~/cl/etc/irbrc ~/.irbrc
 
 # git
-rm ~/.gitconfig
+# rm ~/.gitconfig
 rm ~/.gitignore
 rm ~/.gitattributes
-ln -s ~/cl/etc/gitconfig ~/.gitconfig
+# ln -s ~/cl/etc/gitconfig ~/.gitconfig
 ln -s ~/cl/etc/gitignore ~/.gitignore
 ln -s ~/cl/etc/gitattributes ~/.gitattributes
 
