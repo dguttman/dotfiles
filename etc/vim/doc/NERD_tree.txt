@@ -57,7 +57,7 @@ The following features and functionality are provided by the NERD tree:
         * read-only files
         * executable files
     * Many (customisable) mappings are provided to manipulate the tree:
-        * Mappings to open/close/explore directory nodes
+        * Mappings to open/dotfilesose/explore directory nodes
         * Mappings to open files in new/existing windows/tabs
         * Mappings to change the current root of the tree
         * Mappings to navigate around the tree
@@ -77,7 +77,7 @@ The following features and functionality are provided by the NERD tree:
       has several advantages:
         * All filesystem information is cached and is only re-read on demand
         * If you revisit a part of the tree that you left earlier in your
-          session, the directory nodes will be opened/closed as you left them
+          session, the directory nodes will be opened/dotfilesosed as you left them
     * The script remembers the cursor position and window position in the NERD
       tree so you can toggle it off (or just close the tree window) and then
       reopen it (with NERDTreeToggle) the NERD tree window will appear exactly

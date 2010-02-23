@@ -764,7 +764,7 @@ function! s:Doc(bang, string)
     else
       return s:error("specify a g:rails_search_url with %s for a query placeholder")
     endif
-  elseif isdirectory(rails#app().path("doc/api/classes"))
+  elseif isdirectory(rails#app().path("doc/api/dotfilesasses"))
     let url = rails#app().path("/doc/api/index.html")
   elseif s:getpidfor("0.0.0.0","8808") > 0
     let url = "http://localhost:8808"

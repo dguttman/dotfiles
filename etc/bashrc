@@ -1,4 +1,4 @@
-alias reloadbash='source ~/cl/etc/bash_profile'
+alias reloadbash='source ~/dotfiles/etc/bash_profile'
 
 # Colors ----------------------------------------------------------
 export TERM=xterm-color
@@ -66,7 +66,7 @@ set -o vi
 #bind -m vi-command -r 'v'
 
 # git completion
-source ~/cl/bin/git-completion.bash
+source ~/dotfiles/bin/git-completion.bash
 
 # Prompts ----------------------------------------------------------
 #git_dirty_flag() {
